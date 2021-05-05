@@ -1,0 +1,55 @@
+html,body{
+	text-align:center;
+	font:14px/1.5 'Roboto','Segoe UI','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3','Open Sans','Segoe UI',Verdana,Arial,sans-serif !important;
+	font-weight:300;
+	margin: 0px;
+	padding: 0px;
+	background-color:#2C93C7;
+	letter-spacing:-1px;
+	width:100%;
+	height:100%;
+}
+
+#contentouter{
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	display: table;
+	text-align:left;
+}
+
+#header{
+	width:100%;
+	height:12%;
+	display: table-row;
+}
+
+h1{
+	display: table-cell;
+	vertical-align:bottom;
+	margin:0;
+	padding:0 5%;
+	background-color:#7CBEDF;
+	color:white;
+	font-weight:100;
+	font-size:2.7em;
+}
+
+#contentinner{
+	width:100%;
+	height:75%;
+	display: table-row;
+}
+
+#footer{
+	width:100%;
+	height:8%;
+	display:table-row;
+}
+#footer>div{
+	vertical-align:top;
+	display:table-cell;
+	color:white;
+	padding:0 5%;
+	text-align:right;
+}
